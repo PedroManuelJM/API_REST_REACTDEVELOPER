@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { ApiWebUrl } from '../utils';
-
+import img1 from '../assets/img/logogithub.png';
 export default class Producto extends Component {
 
     constructor(props) {
