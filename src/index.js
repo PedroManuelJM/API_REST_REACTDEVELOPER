@@ -1,17 +1,30 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Producto from './Components/Producto';
+import Navbar from './Components/Navbar';
+import Consulta from './Components/Consulta';
+import Footer from './Components/Footer';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <Navbar/>
+        <main>
+          <Route exact path="/" component={Producto}/>
+          <Route exact path="/scriptBD" component={Consulta}/>
+        </main>
+        <Footer/>
+
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+
 reportWebVitals();
