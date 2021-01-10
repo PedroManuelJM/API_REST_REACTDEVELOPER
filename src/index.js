@@ -13,7 +13,7 @@ import Footer from './Components/Footer';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App/>
+    <Producto/>
   </React.StrictMode>,
   document.getElementById('root')
 );
