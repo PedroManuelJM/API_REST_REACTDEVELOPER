@@ -34,7 +34,7 @@ export default class Producto extends Component {
                     <div className="row row-cols-1 row-cols-md-3 g-4 border-primary ">
                         {datosTablaProductos.map(itemproducto =>
                             <div className="col image-container">
-                                
+
                                 <div className="card">
 
                                     <img src={ApiWebUrl + 'productos/' + itemproducto.imagenproducto} className="card-img-top img-thumbnail rounded" alt="..." />
@@ -45,7 +45,7 @@ export default class Producto extends Component {
                                             : "producto-con-oferta"
                                     }>Oferta</div>
                                     <div className="card-body">
- 
+
                                         <h5 className="card-title">{itemproducto.nombreproducto} {itemproducto.caracteristica} </h5>
                                         <p className="card-text"></p>
 
@@ -71,21 +71,49 @@ export default class Producto extends Component {
     render() {
         let contenidoProductos = Producto.dibujarEnvios(this.state.listaProductos);
         return (
-            <section id="envios" className="padded">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-12 text-center">
-                            <h4 style={{color:"white"}}>Catálogo Productos</h4>
+            <>
+                <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+                    <div className="container">
+                        <a className="navbar-brand" href="/"> - API REST - PRODUCTOS -</a>
+                        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span className="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul className="navbar-nav">
+                                <li className="nav-item">
+                                    <a className="nav-link" href="/scriptBD">Ver la Consulta - BD</a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                    <div className="row">
-                        <br></br>
-                        <div className="col-md-12">
-                            {contenidoProductos}
+                </nav>
+                <section id="envios" className="padded">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-md-12 text-center">
+                                <h4 style={{ color: "white" }}>Catálogo Productos</h4>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <br></br>
+                            <div className="col-md-12">
+                                {contenidoProductos}
+                            </div>
                         </div>
                     </div>
-                </div>
-            </section>
+                </section>
+                <footer id="footer" className="padded">
+                    <div className="container">
+
+                        <h6 className="text-center"> 2021 - Todos los derechos reservados </h6>
+                        <div class="col text-center">
+                            PedroManuelJM <a href="https://github.com/PedroManuelJM" target="_blank" class="" role=""><img src={img1} /></a>
+                        </div>
+                    </div>
+                </footer>
+
+            </>
         );
     }
 }
