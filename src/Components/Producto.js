@@ -75,7 +75,7 @@ export default class Producto extends Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12 text-center">
-                            <h4>Catálogo Productos</h4>
+                            <h4 style={{color:"white"}}>Catálogo Productos</h4>
                         </div>
                     </div>
                     <div className="row">
