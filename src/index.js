@@ -16,11 +16,10 @@ ReactDOM.render(
     <Router>
       <Navbar/>
         <main>
-          <Route exact path="/" component={Producto}/>
-          <Route path="/scriptBD" component={Consulta}/>
+          <Route exact path="/home" component={Producto}/>
+          <Route exact path="/scriptBD" component={Consulta}/>
         </main>
         <Footer/>
-
     </Router>
   </React.StrictMode>,
   document.getElementById('root')
