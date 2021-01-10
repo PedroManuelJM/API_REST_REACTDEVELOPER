@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/API_REST_REACTDEVELOPER/static/css/main.48afdee4.chunk.css",
-    "main.js": "/API_REST_REACTDEVELOPER/static/js/main.8094d79e.chunk.js",
-    "main.js.map": "/API_REST_REACTDEVELOPER/static/js/main.8094d79e.chunk.js.map",
-    "runtime-main.js": "/API_REST_REACTDEVELOPER/static/js/runtime-main.79a68b7f.js",
-    "runtime-main.js.map": "/API_REST_REACTDEVELOPER/static/js/runtime-main.79a68b7f.js.map",
+    "main.js": "/API_REST_REACTDEVELOPER/static/js/main.7f39c522.chunk.js",
+    "main.js.map": "/API_REST_REACTDEVELOPER/static/js/main.7f39c522.chunk.js.map",
+    "runtime-main.js": "/API_REST_REACTDEVELOPER/static/js/runtime-main.7ffe0411.js",
+    "runtime-main.js.map": "/API_REST_REACTDEVELOPER/static/js/runtime-main.7ffe0411.js.map",
     "static/css/2.ae9f1eb3.chunk.css": "/API_REST_REACTDEVELOPER/static/css/2.ae9f1eb3.chunk.css",
-    "static/js/2.c88aea9f.chunk.js": "/API_REST_REACTDEVELOPER/static/js/2.c88aea9f.chunk.js",
-    "static/js/2.c88aea9f.chunk.js.map": "/API_REST_REACTDEVELOPER/static/js/2.c88aea9f.chunk.js.map",
-    "static/js/3.60eb8ca6.chunk.js": "/API_REST_REACTDEVELOPER/static/js/3.60eb8ca6.chunk.js",
-    "static/js/3.60eb8ca6.chunk.js.map": "/API_REST_REACTDEVELOPER/static/js/3.60eb8ca6.chunk.js.map",
+    "static/js/2.1e6dbca9.chunk.js": "/API_REST_REACTDEVELOPER/static/js/2.1e6dbca9.chunk.js",
+    "static/js/2.1e6dbca9.chunk.js.map": "/API_REST_REACTDEVELOPER/static/js/2.1e6dbca9.chunk.js.map",
+    "static/js/3.37d33127.chunk.js": "/API_REST_REACTDEVELOPER/static/js/3.37d33127.chunk.js",
+    "static/js/3.37d33127.chunk.js.map": "/API_REST_REACTDEVELOPER/static/js/3.37d33127.chunk.js.map",
     "index.html": "/API_REST_REACTDEVELOPER/index.html",
     "static/css/2.ae9f1eb3.chunk.css.map": "/API_REST_REACTDEVELOPER/static/css/2.ae9f1eb3.chunk.css.map",
     "static/css/main.48afdee4.chunk.css.map": "/API_REST_REACTDEVELOPER/static/css/main.48afdee4.chunk.css.map",
-    "static/js/2.c88aea9f.chunk.js.LICENSE.txt": "/API_REST_REACTDEVELOPER/static/js/2.c88aea9f.chunk.js.LICENSE.txt",
+    "static/js/2.1e6dbca9.chunk.js.LICENSE.txt": "/API_REST_REACTDEVELOPER/static/js/2.1e6dbca9.chunk.js.LICENSE.txt",
     "static/media/imagen1.ee2cfc74.PNG": "/API_REST_REACTDEVELOPER/static/media/imagen1.ee2cfc74.PNG",
     "static/media/imagen2.7eba77de.PNG": "/API_REST_REACTDEVELOPER/static/media/imagen2.7eba77de.PNG",
     "static/media/imagen3.45daf803.PNG": "/API_REST_REACTDEVELOPER/static/media/imagen3.45daf803.PNG",
@@ -21,10 +21,10 @@
     "static/media/logo.6ce24c58.svg": "/API_REST_REACTDEVELOPER/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.79a68b7f.js",
+    "static/js/runtime-main.7ffe0411.js",
     "static/css/2.ae9f1eb3.chunk.css",
-    "static/js/2.c88aea9f.chunk.js",
+    "static/js/2.1e6dbca9.chunk.js",
     "static/css/main.48afdee4.chunk.css",
-    "static/js/main.8094d79e.chunk.js"
+    "static/js/main.7f39c522.chunk.js"
   ]
 }
