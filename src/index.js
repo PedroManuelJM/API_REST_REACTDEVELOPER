@@ -16,7 +16,7 @@ ReactDOM.render(
     <Router>
       <Navbar/>
         <main>
-          <Route exact path="/home" component={Producto}/>
+          <Route exact path="/home" component={App}/>
           <Route exact path="/scriptBD" component={Consulta}/>
         </main>
         <Footer/>
