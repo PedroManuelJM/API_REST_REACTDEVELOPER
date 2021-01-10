@@ -13,14 +13,7 @@ import Footer from './Components/Footer';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
-      <Navbar/>
-        <main>
-          <Route exact path="/home" component={App}/>
-          <Route exact path="/scriptBD" component={Consulta}/>
-        </main>
-        <Footer/>
-    </Router>
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
