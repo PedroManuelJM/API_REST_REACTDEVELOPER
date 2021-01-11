@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-/*import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUser } from '@fortawesome/free-solid-svg-icons'*/
+
 
 export default class Navbar extends Component {
 
@@ -17,7 +16,7 @@ render(){
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav">
       <li className="nav-item">
-        <a className="nav-link" href="/scriptBD">Ver la Consulta - BD</a>
+       <Link className="nav-link" to="/scriptBD">Ver la Consulta - BD</Link>
       </li>
     </ul>
   </div>
