@@ -1,4 +1,4 @@
-## La siguiente imagen es la página principal , en la cual los productos se obtiene por el consumo de una API-REST que esta alojado en un hosting:00webhost.
+## :pushpin: La siguiente imagen es la página principal , en la cual los productos se obtiene por el consumo de una API-REST que esta alojado en un hosting:00webhost.
 
 ![principal](https://user-images.githubusercontent.com/71619972/104139548-45f91780-537a-11eb-86cb-022e636c1d20.PNG)
 
@@ -15,4 +15,14 @@
 ![imagen4](https://user-images.githubusercontent.com/71619972/104139355-df272e80-5378-11eb-9c91-142b182cbb39.PNG)
 
 :paperclip: El siguiente enlace para ir a la web : https://pedromanueljm.github.io/API_REST_REACTDEVELOPER/
+
+## :pushpin:  Para poder ejecutar el proyecto de manera local , instalar desde el terminal de Visual Studio Code :
+
+npm install --save react-router-dom
+
+npm install bootstrap
+
+npm install jquery
+
+Para ejecutarlo : npm start 
 
