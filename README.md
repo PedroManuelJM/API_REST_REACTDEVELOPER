@@ -16,6 +16,8 @@
 
 :paperclip: El siguiente enlace para ir a la web : https://pedromanueljm.github.io/API_REST_REACTDEVELOPER/
 
+##### OJO: Si es que no aparece los productos vuelva actualizar la página , pues estoy utilizando un hosting gratuito por eso demora en cargar.
+
 ## :pushpin:  Para poder ejecutar el proyecto de manera local , instalar desde el terminal de Visual Studio Code :
 
 npm install --save react-router-dom
